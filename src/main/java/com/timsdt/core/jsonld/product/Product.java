@@ -1,15 +1,13 @@
-package com.timsdt.core.jsonld;
+package com.timsdt.core.jsonld.product;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.timsdt.core.jsonld.*;
 import com.timsdt.core.jsonld.adultorientedenumeration.AdultOrientedEnumeration;
 import com.timsdt.core.jsonld.date.Date;
 import com.timsdt.core.jsonld.energyconsumptiondetails.EnergyConsumptionDetails;
 import com.timsdt.core.jsonld.text.Text;
 import com.timsdt.core.jsonld.url.URL;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Product extends Schema {

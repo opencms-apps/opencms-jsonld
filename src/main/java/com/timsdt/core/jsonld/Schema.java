@@ -8,7 +8,8 @@ public abstract class Schema {
     public enum Types {
         Brand, Product, PropertyValue, AggregateRating, Audience, Country, PhysicalActivityCategory, Organization,
         CategoryCode, Thing, Distance, QuantitativeValue, Grant, AdultOrientedEnumeration, EnergyConsumptionDetails,
-        MerchantReturnPolicy, Service, ProductGroup, ProductModel, DefinedTerm
+        MerchantReturnPolicy, Service, ProductGroup, ProductModel, DefinedTerm, IndividualProduct, ProductCollection,
+        SomeProducts, Vehicle
     }
 
     @JsonProperty("@context")
