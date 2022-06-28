@@ -37,7 +37,9 @@ dependencies {
 
     implementation "org.opencms:opencms-core:${opencms_version}"
     implementation "org.opencms:opencms-gradle-plugin:${opencms_gradle_version}"
-    implementation "com.io-informatics.oss:jackson-jsonld:${jsonld_version}"
+    implementation "com.fasterxml.jackson.core:jackson-core:2.13.3"
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.13.3"
+    implementation "com.fasterxml.jackson.core:jackson-annotations:2.13.3"
 
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
